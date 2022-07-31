@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: rgba(25,25,25,255);
+    --orange: hsl(18, 79%, 66%);
+    --gray: hsl(231, 6%, 51%);
+    --white:hsl(180, 100%, 100%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 20vh;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;    
+}
+
+#logo {
+    font-size: 2vw;
+    font-weight: 600;
+    margin-top: 4vh;
+    margin-left: 9vw;
+}
+
+#menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    margin-top: 5vh;
+    margin-left: 7vw;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+#menu-list li {
+    list-style: none;
+}
+
+#cart {
+    font-size: 1.7vw;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+#cover {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    color: var(--white);
+    background-image: url(./images/image-hero1.jpg);
+    background-size: 100% 110vh;
+}
+
+#cover-product {
+    width: 30%;
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
+#title {
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    font-weight: 200;
+    margin-bottom: 3vh;
+}
+
+#cover-product h1 {
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    font-weight: 600;
+    margin-bottom: 3vh;
+}
+
+#cover-product p {
+    font-size: 1.3vw;
+    font-weight: 300;
+    margin-bottom: 6vh;
+}
+
+#cover-btn {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 1vw;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
