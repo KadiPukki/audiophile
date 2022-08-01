@@ -59,7 +59,7 @@ nav {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     color: var(--white);
     background-image: url(./images/image-hero1.jpg);
     background-size: 100% 110vh;
@@ -97,5 +97,10 @@ nav {
     padding: 1vw;
     text-transform: uppercase;
     font-weight: 500;
+}
+
+#products {
+    display: flex;
+    flex-direction: row;
 }
 
