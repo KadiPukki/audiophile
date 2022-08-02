@@ -10,6 +10,7 @@
     --black: rgba(25,25,25,255);
     --orange: hsl(18, 79%, 66%);
     --gray: hsl(231, 6%, 51%);
+    --light-gray: hsl(240, 30%, 95%);
     --white:hsl(180, 100%, 100%);
 }
 
@@ -102,5 +103,184 @@ nav {
 #products {
     display: flex;
     flex-direction: row;
+    width: 80%;
+    height: 80vh;
+    background-color: var(--white);
+    gap: 0.5vw;
+    margin: auto;
 }
 
+.item {
+    width: 25%;
+    margin: auto;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item-img {
+    width: 15vw;
+    margin-top: -12vh;
+    margin-bottom: 1vh;
+}
+
+.item-name {
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 1.4vw;
+}
+
+.shop-btn {
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.shop-btn i {
+    color: var(--orange);
+}
+
+#first-speaker {
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    background-color: var(--orange);
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-bottom: 10vh;
+}
+
+#first-speaker-img img {
+    width: 40vw;
+    margin-top: 12.5vh;
+}
+
+#first-speaker-content h1 {
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 500;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+
+#first-speaker-content p {
+    color: var(--white);
+    font-size: 1.2vw;
+    margin-bottom: 5vh;
+}
+
+#first-speaker-content button {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1vw;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#speaker-z {
+    background-image: url(./images/image-speaker-zx7.jpg);
+    background-size: cover;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 5vh;
+    color: var(--black);  
+    padding: 4vw;  
+}
+
+#speaker-z p {
+    margin-left: 10vw;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-weight: 700;
+    letter-spacing: 0.1vw;
+}
+
+#speaker-z button {
+    background-color: none;
+    color: var(--black);
+    padding: 1vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+#earphone {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    gap: 3vw;
+    margin-bottom: 5vh;
+}
+
+#earphone-pic {
+    height: 50vh;
+    width: 50%;
+    background-image: url(./images/image-earphones-yx1.jpg);
+    border-radius: 5px;
+}
+
+#earphone-text {
+    width: 50%;
+    height: 50vh;
+    background-color: var(--light-gray);
+    border-radius: 5px;
+}
+
+#earphone-text p {
+    margin-top: 10vh;
+    margin-left: 10vw;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-weight: 700;
+    letter-spacing: 0.1vw;
+}
+
+#earphone-text button {
+    background-color: var(--light-gray);
+    color: var(--black);
+    padding: 1vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+#brand-content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80vh;
+    margin: 15vh auto 15vh auto;
+    gap: 2vw;
+}
+
+#brand-content-text {
+    width: 50%;
+    height: 80vh;
+}
+
+#brand-content-text h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+}
+
+#brand-content-text p {
+    color: var(--gray);
+}
+
+#brand-content-img {
+    background-image: url(./images/image-best-gear.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 50%;
+    border-radius: 5px;
+}
