@@ -84,6 +84,7 @@ nav {
     letter-spacing: 1vw;
     font-weight: 600;
     margin-bottom: 3vh;
+    font-size: 2.2vw;
 }
 
 #cover-product p {
@@ -98,6 +99,7 @@ nav {
     padding: 1vw;
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 1vw;
 }
 
 #products {
@@ -136,10 +138,12 @@ nav {
     font-size: 1vw;
     margin-top: 1vh;
     margin-bottom: 2vh;
+    font-size: 1vw;
 }
 
 .shop-btn i {
     color: var(--orange);
+    font-size: 1vw;
 }
 
 #first-speaker {
@@ -178,6 +182,7 @@ nav {
     padding: 1vw;
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 1vw;
 }
 
 #speaker-z {
@@ -208,6 +213,7 @@ nav {
     font-weight: 500;
     margin-left: 10vw;
     margin-top: 5vh;
+    font-size: 1vw;
 }
 
 #earphone {
@@ -251,6 +257,7 @@ nav {
     font-weight: 500;
     margin-left: 10vw;
     margin-top: 5vh;
+    font-size: 1vw;
 }
 
 #brand-content {
@@ -259,7 +266,7 @@ nav {
     width: 80%;
     height: 80vh;
     margin: 15vh auto 15vh auto;
-    gap: 2vw;
+    gap: 6vw;
 }
 
 #brand-content-text {
@@ -271,10 +278,12 @@ nav {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 5vh;
+    font-size: 2.2vw;
 }
 
 #brand-content-text p {
     color: var(--gray);
+    font-size: 1.2vw;
 }
 
 #brand-content-img {
@@ -283,4 +292,56 @@ nav {
     height: 80vh;
     width: 50%;
     border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40vh;
+    background-color: var(--black);
+    color: var(--white);
+    gap: 1vw;
+}
+
+#brand {
+    width: 40%;
+    margin-left: 10vw;
+    margin-top: 7vh;
+}
+
+#footer-logo {
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 3vh;
+}
+
+#footer-text {
+    font-size: 1vw;
+}
+
+#footer-menu {
+    width: 40%;
+}
+
+#footer-menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-menu li {
+    list-style: none;
+    padding: 2vw;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    margin-top: 5vh;
+}
+
+#medias {
+    margin-left: 30vw;
+    font-size: 1.5vw;    
+}
+
+#medias i {
+    padding: 0.5vw;
 }
