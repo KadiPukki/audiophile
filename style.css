@@ -286,11 +286,11 @@ nav {
     font-size: 1.2vw;
 }
 
-#brand-content-img {
-    background-image: url(./images/image-best-gear.jpg);
+#brand-content-img img {
+    /*background-image: url(./images/image-best-gear.jpg);*/
     background-size: cover;
     height: 80vh;
-    width: 50%;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -344,4 +344,156 @@ footer {
 
 #medias i {
     padding: 0.5vw;
+}
+
+#newsletter {
+    display: none;
+    width: 40vw;
+    height: 40vh;
+    background-color: var(--gray);
+}
+
+@media (max-width: 1024px) {
+    #logo {
+        font-size: 3vw;
+    }
+    #cover {
+        background-color: var(--black);
+        background-image: none;
+        height: 52vh;
+    }
+
+    #cover-product {
+        margin: auto;
+    }
+
+    #cover-btn {
+        font-size: 1.5vw;
+    }
+
+    .item-img {
+        margin-top: -8vh;
+    }
+
+    #brand-content {
+        margin-bottom: 5vh;
+    }
+
+    #brand-content-img img {
+        height: 65vh;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #menu-list {
+        font-size: 1.7vw;
+    }
+
+    #cover {
+        margin-bottom: 8vh;
+    }
+
+    #cover-product p {
+        font-size: 1.8vw;
+    }
+
+    #products {
+        display: none;
+    }
+
+    #first-speaker {
+        width: 80%;
+        height: 60vh;
+    }
+
+    #first-speaker-content p {
+        font-size: 1.5vw;
+    }
+
+    #first-speaker-content button {
+        font-size: 1.5vw;
+    }
+
+    #speaker-z {
+        background-image: url(./images/image-speaker-zx7-mobile.jpg);
+    }
+
+    #speaker-z p {
+        font-size: 5vw;
+    }
+
+    #speaker-z button {
+        font-size: 1.5vw;
+    }
+
+    #earphone-pic {
+        display: none;
+    }
+
+    #earphone-text {
+        width: 100%;
+    }
+
+    #earphone-text p {
+        font-size: 5vw;
+    }
+
+    #earphone-text button {
+        font-size: 1.5vw;
+    }
+
+    #brand-content {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    #brand-content img {
+        display: none;
+    }
+
+    #brand-content-text {
+        width: 80%;
+        margin: auto;
+    }
+
+    #brand-content-text h1 {
+        font-size: 3.5vw;
+    }
+
+    #brand-content-text p {
+        font-size: 2vw;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 58vh;
+    }
+
+    #brand {
+        width: 80%;
+    }
+
+    #footer-logo {
+        font-size: 3vw;
+    }
+
+    #footer-text {
+        font-size: 2vw;
+    }
+
+    #footer-menu {
+        width: 80%;
+    }
+
+    #footer-menu li {
+        font-size: 2vw;
+        margin: 3vh auto 3vh auto;
+    }
+
+    #medias {
+        font-size: 4vw;
+    }
 }
