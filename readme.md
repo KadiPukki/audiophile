@@ -5,6 +5,12 @@ Inspired by the project that I found out at Frontend Mentor page (https://www.fr
 ### Screenshot
 
 ![Page](./images/Screenshot%20(16).png)
+![Page](./images/Screenshot%20(17).png)
+![Page](./images/Screenshot%20(18).png)
+![Page](./images/Screenshot%20(19).png)
+![Page](./images/Screenshot%20(20).png)
+![Page](./images/Screenshot%20(21).png)
+![Page](./images/Screenshot%20(22).png)
 
 
 ### Built with
