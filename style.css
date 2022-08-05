@@ -311,9 +311,32 @@ footer {
 }
 
 #footer-logo {
+    display: flex;
+    flex-direction: row;
     font-size: 2vw;
     font-weight: 600;
     margin-bottom: 3vh;
+}
+
+#footer-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    color: var(--black);
+    background-color: var(--white);
+    margin-left: 12vw;
+    padding: 0.8vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    letter-spacing: 0.1vw;
 }
 
 #footer-text {
@@ -346,11 +369,62 @@ footer {
     padding: 0.5vw;
 }
 
-#newsletter {
-    display: none;
-    width: 40vw;
-    height: 40vh;
-    background-color: var(--gray);
+#pop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--black);
+}
+
+#popup {
+    width: 60%;
+    height: 70vh;
+    background-color: var(--white);
+}
+
+.content {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.content i {
+    font-size: 7vw;
+}
+
+.content h2 {
+    font-weight: 500;
+    margin-bottom: 3vh;
+}
+
+.content p {
+    margin-bottom: 3vh;
+}
+
+#popup .content .inputBox {
+    margin-top: 3vh;
+}
+
+#popup .content .inputBox input {
+    width: 50%;
+    height: 8vh;
+    border: 0.2vw solid;
+}
+
+#popup .content .inputBox input[type="submit"] {
+    max-width: 15vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.close {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50vw;
+    margin-top: none;
+    cursor: pointer;
 }
 
 @media (max-width: 1024px) {

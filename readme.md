@@ -4,7 +4,7 @@ Inspired by the project that I found out at Frontend Mentor page (https://www.fr
 
 ### Screenshot
 
-![Page](./images.png)
+![Page](./images/Screenshot%20(16).png)
 
 
 ### Built with
