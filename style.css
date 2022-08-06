@@ -332,7 +332,6 @@ footer {
     font-weight: 500;
     border-radius: 2px;
     cursor: pointer;
-    transition: 0.5s;
 }
 
 .btn:hover {

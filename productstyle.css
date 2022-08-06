@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: rgba(25,25,25,255);
+    --orange: hsl(18, 79%, 66%);
+    --gray: hsl(231, 6%, 51%);
+    --light-gray: hsl(240, 30%, 95%);
+    --white:hsl(180, 100%, 100%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 20vh;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;    
+}
+
+#logo {
+    font-size: 2vw;
+    font-weight: 600;
+    margin-top: 4vh;
+    margin-left: 9vw;
+}
+
+#menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    margin-top: 5vh;
+    margin-left: 7vw;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+#menu-list li {
+    list-style: none;
+}
+
+#cart {
+    font-size: 1.7vw;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+#headphone {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--gray);
+    width: 80%;
+    height: 80vh;
+    margin: 10vh auto 10vh auto;
+}
+
+#headphone-img {
+    width: 100%;
+    margin: auto;
+    margin-left: 5vw;
+}
+
+#headphone-img img {
+    width: 65%;
+    margin-top: 1vh;
+}
+
+#headphone-content {
+    width: 50%;
+    margin-right: 5vw;
+    margin-top: 10vh;
+}
