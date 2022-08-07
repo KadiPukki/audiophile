@@ -122,3 +122,46 @@ nav {
     margin-top: 2vh;
     cursor: pointer;
 }
+
+#features {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80vh;
+    margin: 10vh auto 10vh auto;
+    gap: 8vw;
+}
+
+#feature-text {
+    width: 90%;
+    color: var(--black);
+}
+
+#feature-text h3 {
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 5vh;
+}
+
+#feature-text p {
+    font-size: 1.2vw;
+    color: var(--gray);
+}
+
+#box {
+    width: 60%;
+}
+
+#box h3 {
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 5vh;
+}
+
+#box-content li {
+    list-style:circle;
+    font-size: 1.2vw;
+    color: var(--orange);
+}
