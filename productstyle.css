@@ -59,7 +59,6 @@ nav {
 #headphone {
     display: flex;
     flex-direction: row;
-    background-color: var(--light-gray);
     width: 80%;
     height: 80vh;
     margin: 10vh auto 10vh auto;
@@ -70,6 +69,10 @@ nav {
     margin: auto;
     margin-left: 5vw;
     color: var(--gray);
+}
+
+#headphone-img p {
+    cursor: pointer;
 }
 
 #headphone-img img {
@@ -107,4 +110,15 @@ nav {
     font-weight: 600;
     color: var(--black);
     margin-top: 1vh;
+}
+
+#cart-btn {
+    font-size: 1vw;
+    text-transform: uppercase;
+    background-color: var(--orange);
+    color: var(--white);
+    border-style: none;
+    padding: 0.5vw;
+    margin-top: 2vh;
+    cursor: pointer;
 }
