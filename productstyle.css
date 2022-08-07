@@ -128,7 +128,7 @@ nav {
     flex-direction: row;
     width: 80%;
     height: 80vh;
-    margin: 10vh auto 10vh auto;
+    margin: 5vh auto 5vh auto;
     gap: 8vw;
 }
 
@@ -164,4 +164,6 @@ nav {
     list-style:circle;
     font-size: 1.2vw;
     color: var(--orange);
+    font-weight: 600;
 }
+
