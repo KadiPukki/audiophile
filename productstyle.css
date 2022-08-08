@@ -167,3 +167,38 @@ nav {
     font-weight: 600;
 }
 
+/*gallery*/
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    gap: 3vw;
+}
+
+/*Style the images inside the grid*/
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+    width: 100%;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+#suggest {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+}
+
+#suggest-products {
+    display: flex;
+    flex-direction: row;
+}
+
+.suggested img {
+    width: 30%;
+}
