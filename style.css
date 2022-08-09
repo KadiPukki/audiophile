@@ -14,6 +14,18 @@
     --white:hsl(180, 100%, 100%);
 }
 
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: var(--white);
+  }
+  
+a:hover {
+    color: var(--orange);
+  }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
