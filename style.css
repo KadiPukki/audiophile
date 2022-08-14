@@ -22,9 +22,6 @@ a:visited {
     color: var(--white);
   }
   
-a:hover {
-    color: var(--orange);
-  }
 
 body {
     font-family: 'Poppins', sans-serif;
